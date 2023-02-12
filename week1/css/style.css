@@ -1,0 +1,63 @@
+
+/*This is a comment in CSS*/
+
+body{
+    font-family: serif;
+    color: deeppink;
+    background-color: black;
+    //letter-spacing: 20px;
+    
+}
+
+h1{
+    font-size: 100px;
+      text-shadow: 1px 1px 1px pink, 2px 2px 1px burlywood;
+   
+}
+
+p{
+    font-size: 20px;
+}
+
+.centered-wrapper{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* When giving a child element position absolute you should give the parent position value as well */
+/* The child will then be positioned absolute in realtion to the box container of the parent */
+/* positioning elements on the page is fundamental to understanding CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+.title{
+    position: relative;
+    width: 350px;
+    text-align: left;
+    margin: 0 auto;
+}
+.title a{
+    position: absolute;
+}
+.title a.forking{
+    left: 40%;
+    top: -70px;
+    
+}
+.title a.paths{
+    left: 78%;
+    top: 30px;
+    
+}
+
+a.dead-link:hover{
+    opacity: 0.5;
+}
+
+.aut a{
+      font-size: 5px;
+    font-style: italic;
+}
+
+span#ghost{
+    opacity: 0.4;
+}
